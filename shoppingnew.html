@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="bootstrap.css">
+        <link rel="stylesheet" href="shopping-cart css.css">
+        <link rel="stylesheet" href="jsshop.js">
+        <link rel="canonical" href="https://getbootstrap.com/docs/5.0/components/dropdowns/">
+        <script src="https://code.jquery.com/jquery-2.2.4.js" charset="utf-8"></script>
+        <meta name="robots" content="noindex,follow">
+    </head>
+    <body>
+  
+  <div class="shopping cart">
+    <div class="title">
+      <div class="row">
+        <div class="col-sm-2">
+        Shopping Bag
+        </div>
+        <div class="col-sm"></div>
+        <div class="col-sm-2">
+            Cart 
+            <div class="dropdown">
+              <button class="dropbtn">
+                <div>
+                  <img src="cart.jpg" style="width : 40px; height : auto;">
+                </div>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">View Subtotal:</a>
+                <a href="#">Reset Cart</a>
+                <p href="#">Proceed to Buy</p>
+              </div>
+            </div>
+            <!-- Large button groups (default and split)
+<div class="btn-group">
+  <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Large button
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="#">Separated link</a></li>
+  </ul>
+</div> -->
+
+        </div>
+     </div>
+    </div>
+    <div class="container">
+  <div class="row">
+    <div class="col-sm">
+        <div class="card" style="width: 18rem;">
+          <div class="image">
+            <img src="cardigan.jpg" class="card-img-top" alt="...">
+              </div>
+            <div class="card-body">
+              <h5 class="card-title">Cardigan</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <b>Rs 699</b>
+              <hr>
+              <div>
+                Select Quantity
+
+              </div>
+              <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                <button type="button minus-btn" class="btn btn-danger" name="button">-</button>
+                <input type="text" name="name" value="1">
+                <button type="button plus-btn" class="btn btn-success" name="button">+</button>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="col-sm">
+        <div class="card" style="width: 18rem;">
+          <div class="image">
+            <img src="shoo.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Sport Shoes</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <b>Rs 3499</b>
+              <hr>
+              <div>
+                Select Quantity
+                
+              </div>
+              <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                <button type="button minus-btn" class="btn btn-danger">-</button>
+                <input type="text" name="name" value="1">
+                <button type="button plus-btn" class="btn btn-success">+</button>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="col-sm">
+        <div class="card" style="width: 18rem;">
+          <div class="image">
+            <img src="boots.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Boots</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <b>Rs 4399</b>
+              <hr>
+              <div>
+                Select Quantity
+                
+              </div>
+              <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                <button type="button minusbtn" class="btn btn-danger">-</button>
+                <input type="text" name="name" value="1">
+                <button type="button plusbtn" class="btn btn-success">+</button>
+              </div>
+            </div>
+          </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm">
+        <div class="card" style="width: 18rem;">
+          <div class="image">
+            <img src="pumps.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Pumps</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <b>Rs 8999</b>
+              <hr>
+              <div>
+                Select Quantity
+                
+              </div>
+              <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                <button type="button minusbtn" class="btn btn-danger">-</button>
+                <input type="text" name="name" value="1">
+                <button type="button plusbtn" class="btn btn-success">+</button>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="col-sm">
+        <div class="card" style="width: 18rem;">
+          <div class="image">
+            <img src="fitbit.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Fitibit Versa</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <b>Rs 5699</b>
+              <hr>
+              <div>
+                Select Quantity
+                
+              </div>
+              <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                <button type="button minusbtn" class="btn btn-danger">-</button>
+                <input type="text" name="name" value="1">
+                <button type="button plusbtn" class="btn btn-success">+</button>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="col-sm">
+        <div class="card" style="width: 18rem;">
+          <div class="image">
+            <img src="bottle.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Puma bottle</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <b>Rs 799</b>
+              <hr>
+              <div>
+                Select Quantity
+                
+              </div>
+              <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                <button type="button minusbtn" class="btn btn-danger" onclick="RemoveItem()">-</button>
+                <input type="text" name="name" value="1">
+                <button type="button plusbtn" class="btn btn-success" onclick="ModifyItem()">+</button>
+              </div>
+            </div>
+          </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+    $('.minus-btn').on('click', function(e) {
+    e.preventDefault();
+    var $this = $(this);
+    var $input = $this.closest('div').find('input');
+    var value = parseInt($input.val());
+ 
+    if (value &amp;amp;gt; 1) {
+        value = value - 1;
+    } else {
+        value = 0;
+    }
+ 
+  $input.val(value);
+ 
+});
+ 
+$('.plus-btn').on('click', function(e) {
+    e.preventDefault();
+    var $this = $(this);
+    var $input = $this.closest('div').find('input');
+    var value = parseInt($input.val());
+ 
+    if (value &amp;amp;lt; 100) 
+        {
+        value = value + 1;
+        } else 
+        {
+        value =100;
+        }
+ 
+    $input.val(value);
+});
+</script>
+</body>
+</html>
